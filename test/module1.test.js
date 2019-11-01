@@ -37,7 +37,7 @@ describe('Module 01 - Kanban Board Events - kanban.js', () => {
     const item_draggable = create_item.findPropertyAssignment('item', 'draggable');
     const item_draggable_match = {
       'operator': '=',
-      'right.value': true
+      'right.value': true 
     };
     assert(matchObj(item_draggable, item_draggable_match), 'Are you making the `item` draggable?');
     item_draggable
